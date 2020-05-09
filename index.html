@@ -1,0 +1,372 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=PT+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+    <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <header class="site-header">
+        <div class="barra">
+            <div class="contenedor clearfix">
+                <div class="logo">
+                    <img src="img/logo1.svg" alt="logo marisol">
+                </div>
+
+                <div class="menu-movil">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <nav class="navegacion-principal clearfix">
+                    <a href="#">Inicio</a>
+                    <a href="404.html">Conoceme</a>
+                    <a href="http://ifuxion.fuxion.com/" target="_blank">Blog</a>
+                    <a href="contacto.html">Trabaja Conmigo</a>
+                </nav>
+            </div>
+            <!--Contenedor-->
+        </div>
+        <!--Barra-->
+
+        <div class="hero">
+            <div class="contenido-header">
+
+                <div class="informacion-evento">
+                    <h1 class="nombre-sitio">SALUD COMPLETA</h1>
+                    <p class="slogan">Vive en <span>equilibrio</span></p>
+                </div>
+                <!--Informacion Evento-->
+
+
+            </div>
+        </div>
+        <!--Hero-->
+    </header>
+
+    <nav class="redes-sociales">
+        <p>Sigueme en: </p>
+        <a href="https://www.facebook.com/marisolponceconsejos/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-pinterest-p"></i></a>
+        <a href=""><i class="fab fa-youtube"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+    </nav>
+
+    <section class="seccion contenedor">
+        <h2>¿Cómo conseguir una salud completa?</h2>
+        <p>
+            Te ofrezco la Oportunidad construir tu libertad mediante una Franquicia Máster, con un sistema de trabajo simple y fácil de replicar. Puedes comenzar en tu tiempo libre y dependiendo de tu esfuerzo y perseverancia irás generando ingresos cada vez mayores,
+            que te permitirán alcanzar la libertad de tiempo y dinero que tanto deseas.
+        </p>
+    </section>
+    <!--Seccion-->
+
+    <section class="programa">
+        <div class="contenedor-video">
+            <video autoplay loop muted poster="img/deporte_021.jpg">
+                <source src="video/deporte.mp4" type="video/mp4">
+                <source src="video/deporte.webm" type="video/webm">
+                <source src="video/deporte.ogv" type="video/ogv">
+            </video>
+        </div>
+        <!--Contenedor Video-->
+        <div class="contenido-programa">
+            <div class="contenedor">
+                <div class="programa-evento">
+                    <h2>Salud</h2>
+                    <nav class="menu-programa">
+                        <a href="#talleres"><i class="fas fa-running"></i> Fisica</a>
+                        <a href="#conferencias"><i class="fas fa-heart"></i>  Emocional</a>
+                        <a href="#seminarios"><i class="fas fa-dollar-sign"></i>  Financiera</a>
+                    </nav>
+
+                    <div id="talleres" class="info-curso ocultar clearfix">
+                        <div class="detalle-evento">
+                            <h3>Sistema Base</h3>
+                            <p><i class="fas fa-tint"></i> Limpia </p>
+                            <p><i class="fas fa-dna"></i> Nutre y Regenera </p>
+                            <p><i class="fas fa-fire-alt"></i></i> Energia y Revitalizacion </p>
+                        </div>
+                        <div class="detalle-evento">
+                            <h3>Potenciadores</h3>
+                            <p><i class="fas fa-shield-alt"></i> Inmunológica </p>
+                            <p><i class="fas fa-weight"></i> Control de Peso </p>
+                            <p><i class="fas fa-heartbeat"></i> Anti-Edad </p>
+                            <p><i class="fas fa-brain"></i> Vigor Mental </p>
+                            <p><i class="fas fa-dumbbell"></i> Sport </p>
+                        </div>
+                        <a href="https://api.whatsapp.com/send?phone=51988642011&text=Me%20gustaria%20conocer%20mas%20de%20la%20salud%20completa&source=&data=&app_absent=" target="_blank" class="button float-right">Contactame</a>
+                    </div>
+                    <!--#Talleres-->
+                    <div id="conferencias" class="info-curso ocultar clearfix">
+                        <div class="detalle-evento">
+                            <h3>¿Quieres ser realmente Feliz?</h3>
+                            <p><i class="fas fa-volume-up"></i> Grita </p>
+                            <p><i class="fas fa-microphone-alt"></i> Canta </p>
+                            <p><i class="fas fa-laugh-beam"></i> Emocionate </p>
+                        </div>
+                        <div class="detalle-evento">
+                            <h3>No Cambies, ¡Evoluciona!</h3>
+                            <p><i class="fas fa-expand-arrows-alt"></i> Expándete </p>
+                            <p><i class="fas fa-link"></i> Conéctate </p>
+                            <p><i class="fas fa-arrow-up"></i> Llega al tope </p>
+                        </div>
+                        <a href="https://api.whatsapp.com/send?phone=51988642011&text=Me%20gustaria%20conocer%20mas%20de%20la%20salud%20completa&source=&data=&app_absent=" target="_blank" class="button float-right">Contactame</a>
+                    </div>
+                    <!--#Talleres-->
+                    <div id="seminarios" class="info-curso ocultar clearfix">
+                        <div class="detalle-evento">
+                            <h3>Genera ingresos en tu tiempo libre</h3>
+                            <p><i class="fas fa-clock"></i> Sin horarios </p>
+                            <p><i class="fas fa-calendar-alt"></i> Sin calendario </p>
+                            <p><i class="fas fa-user"></i> Cuando tú lo decidas </p>
+                        </div>
+                        <div class="detalle-evento">
+                            <h3>No cambies mas tu tiempo por dinero</h3>
+                            <p><i class="fas fa-clock"></i> Pasa mas tiempo en familia </p>
+                            <p><i class="fas fa-dollar-sign"></i> Genera un ingreso extra </p>
+                            <p><i class="fas fa-shield-alt"></i> Cuida tu salud y gana mientras lo haces </p>
+                        </div>
+                        <a href="https://api.whatsapp.com/send?phone=51988642011&text=Me%20gustaria%20conocer%20mas%20de%20la%20salud%20completa&source=&data=&app_absent=" target="_blank" class="button float-right">Contactame</a>
+                    </div>
+                    <!--#Talleres-->
+                </div>
+                <!--programa evento-->
+            </div>
+            <!--Contenedor-->
+        </div>
+        <!--contenido-programa-->
+    </section>
+    <!--Programa-->
+
+    <section class="invitados contenedor seccion">
+        <h2>Consiguiendo la salud fisica</h2>
+        <p>
+            Porque solo sentirse bien y saludable cuando puedes alcanzar más y sacarle el máximo provecho a tu cuerpo. Lograr bajar ese kilito de más, tonificar el cuerpo que tanto deseas, tener energía para todo el dia, mantener la concentracion libre de estres
+            o aumentar tus defensas. Conoce un poco mas de como conseguirlo.
+        </p>
+        <ul class="lista-invitados clearfix">
+            <li>
+                <div class="invitado">
+                    <a href="https://ifuxion.com/marisolponce1/enrollment/products?categoryID=1027" target="_blank">
+                        <img src="img/linea1.png" alt="Imagen Producto">
+                    </a>
+                    <p>Inmunologica</p>
+                </div>
+            </li>
+            <li>
+                <div class="invitado">
+                    <a href="https://ifuxion.com/marisolponce1/enrollment/products?categoryID=1028" target="_blank">
+                        <img src="img/linea2.png" alt="Imagen Producto">
+                    </a>
+                    <p>Control de Peso</p>
+                </div>
+            </li>
+            <li>
+                <div class="invitado">
+                    <a href="https://ifuxion.com/marisolponce1/enrollment/products?categoryID=1029" target="_blank">
+                        <img src="img/linea3.png" alt="Imagen Producto">
+                    </a>
+                    <p>Anti-Edad</p>
+                </div>
+            </li>
+            <li>
+                <div class="invitado">
+                    <a href="https://ifuxion.com/marisolponce1/enrollment/products?categoryID=1030" target="_blank">
+                        <img src="img/linea4.png" alt="Imagen Producto">
+                    </a>
+                    <p>Vigor Mental</p>
+                </div>
+            </li>
+            <li>
+                <div class="invitado">
+                    <a href="https://ifuxion.com/marisolponce1/enrollment/products?categoryID=1031" target="_blank">
+                        <img src="img/linea5.png" alt="Imagen Producto">
+                    </a>
+                    <p>Sport</p>
+                </div>
+            </li>
+            <li>
+                <div class="invitado">
+                    <a href="https://ifuxion.com/marisolponce1/enrollment/products?categoryID=1024" target="_blank">
+                        <img src="img/linea6.png" alt="Imagen Producto">
+                    </a>
+                    <p>Limpia</p>
+                </div>
+            </li>
+            <li>
+                <div class="invitado">
+                    <a href="https://ifuxion.com/marisolponce1/enrollment/products?categoryID=1025" target="_blank">
+                        <img src="img/linea7.png" alt="Imagen Producto">
+                    </a>
+                    <p>Nutrición y Regeneración</p>
+                </div>
+            </li>
+            <li>
+                <div class="invitado">
+                    <a href="https://ifuxion.com/marisolponce1/enrollment/products?categoryID=1026" target="_blank">
+                        <img src="img/linea8.png" alt="Imagen Producto">
+                    </a>
+                    <p>Energía y Revitalización</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <div class="prueba parallax">
+        <div class="contenido contenedor">
+            <p>
+                ¿Dudas? o ¿Quisieras probar los productos?<br> Pide mas información y tu muestra <span style="font-weight: bold;">gratis</span> aqui:
+            </p>
+            <a href="https://api.whatsapp.com/send?phone=51988642011&text=Quiero%20mas%20informaci%C3%B3n%20de%20los%20productos%20y%20una%20muestra%20gratuita&source=&data=&app_absent=" target="_blank" class="button">¡Producto!</a>
+        </div>
+        <!--contenido-->
+    </div>
+
+    <div class="contador parallax">
+        <div class="contenedor">
+            <ul class="resumen-evento clearfix">
+                <li>
+                    <p class="numero"></p> Servicios</li>
+                <li>
+                    <p class="numero"></p> Lineas</li>
+                <li>
+                    <p class="numero"></p> Productos</li>
+                <li>
+                    <p class="numero"></p> Decisión</li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="invitados contenedor seccion">
+        <h2>Salud Emocional</h2>
+        <div class="emocional">
+            <div class="mitad">
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/R4nRh2bRXNc?start=93" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="mitad">
+                <p><i class="fas fa-plane"></i> Es tu momento de viajar</p>
+                <p><i class="fas fa-users"></i> Rodeate de personas con grandes energias y sueños</p>
+                <p><i class="fas fa-laugh-wink"></i> Dejate contagiar por la emocion</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="invitados contenedor seccion">
+        <h2>Salud Financiera</h2>
+        <div class="emocional">
+
+            <div class="mitad">
+                <p><i class="fas fa-flag-checkered"></i> Consigue tu libertad financiera</p>
+                <p><i class="fas fa-clock"></i> Deja de sacrificar tu tiempo por dinero</p>
+                <p><i class="fas fa-gem"></i> Genera ingresos en cualquier momento y lugar</p>
+            </div>
+            <div class="mitad">
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/LiRP9h-CvUw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <div class="newsletter parallax">
+        <div class="contenido contenedor">
+            <p> Registrate para el proximo evento:</p>
+            <h3>FUXION</h3>
+            <a href="https://api.whatsapp.com/send?phone=51988642011&text=Quiero%20registrarme%20al%20siguiente%20evento&source=&data=&app_absent=" target="_blank" class="button transparente">Registro</a>
+        </div>
+        <!--contenido-->
+    </div>
+    <!--newsletter-->
+
+    <section class="seccion">
+        <h2>Faltan</h2>
+        <div class="cuenta-regresiva contenedor">
+            <ul class="clearfix">
+                <li>
+                    <p id="dias" class="numero"></p> días</li>
+                <li>
+                    <p id="horas" class="numero"></p> horas</li>
+                <li>
+                    <p id="minutos" class="numero"></p> minutos</li>
+                <li>
+                    <p id="segundos" class="numero"></p> segundos</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="contenedor clearfix">
+            <div class="footer-informacion">
+                <h3>Sobre <span>Marisol Ponce</span></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas voluptatibus blanditiis saepe laborum? Repellendus, magnam! Ad ut excepturi nesciunt officia nihil doloremque eos animi? Maiores esse dolorum reprehenderit iusto soluta.</p>
+            </div>
+
+            <div class="menu">
+                <h3>Redes <span>sociales</span></h3>
+                <nav class="redes-sociales">
+                    <a href="https://www.facebook.com/marisolponceconsejos/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-pinterest-p"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </nav>
+            </div>
+        </div>
+
+        <p class="copyright">Todos los derechos reservados</p>
+
+    </footer>
+
+
+    <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.lettering.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('set', 'transport', 'beacon');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
